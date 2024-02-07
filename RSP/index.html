@@ -2,12 +2,17 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="v  iewport" content="width=device-width, initial-scale=1.0" />
     <title>가위바위보</title>
     <link href="style.css" rel="stylesheet" />
   </head>
   <body>
-    <div id="hand_img">0</div>
+    <div class="monitor">
+      <div id="result">과연 이길 수 있을것인가!</div>
+    </div>
+    <div class="monitor">
+      <img id="hand_img" src="./img/paper.png" />
+    </div>
     <div>
       <div id="user">
         사용자 점수 :
@@ -34,7 +39,9 @@
       </button>
     </div>
     <div class="but">
-      <button class="game" id="start" onclick="start()">가위 바위 보!</button>
+      <button class="game" id="start" onclick="changeImage()">
+        가위 바위 보!
+      </button>
       <button class="game" id="reset" onclick="reset()">게임 초기화</button>
     </div>
     <script src="main.js"></script>
