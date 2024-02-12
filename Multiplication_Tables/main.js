@@ -1,8 +1,31 @@
-function getInputValue() {
-  // input 요소의 id를 사용하여 해당 요소를 찾고, value 속성을 통해 입력된 값을 가져옴
-  var numInput = document.getElementById('num');
-  var numValue = numInput.value;
+let monitor = document.getElementById('monitor');
+let index;
+let timerId;
 
-  // 가져온 값 활용 예시: 얼럿 창에 출력
-  alert('입력된 사용자 이름: ' + numValue);
+function Multification() {
+  index = 1;
+  clearTimeout(timerId);
+  var numInput = document.getElementById('num');
+  var numValue = parseInt(numInput.value);
+  while (monitor.firstChild) {
+    monitor.removeChild(monitor.firstChild);
+  }
+  if (isNaN(numValue)) {
+    alert('숫자를 입력해 주세요.');
+    numInput.value = '';
+  } else {
+    printing(numValue);
+  }
+}
+
+function printing(num) {
+  if (index < 10) {
+    var newElement = document.createElement('div');
+    newElement.innerText = num + ' * ' + index + ' = ' + num * index;
+    monitor.appendChild(newElement);
+    index++;
+    timerId = setTimeout(function () {
+      printing(num);
+    }, 500);
+  }
 }
