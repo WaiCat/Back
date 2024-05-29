@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.example.CalculatorTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-05-29T16:45:13" hostname="DESKTOP-BSI8703" time="0.026">
+  <properties/>
+  <testcase name="나눗셈에서 0을 나누는 경우 예외를 발생시킨다." classname="org.example.CalculatorTest" time="0.026"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
