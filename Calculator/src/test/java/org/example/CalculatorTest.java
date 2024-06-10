@@ -1,7 +1,8 @@
 package org.example;
 
-import org.assertj.core.api.AssertionsForClassTypes;
+import org.assertj.core.api.Assertions;
 import org.example.calculator.PositiveNumber;
+import org.assertj.core.api.AssertionsForClassTypes;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
@@ -34,7 +35,7 @@ public class CalculatorTest {
     @DisplayName("나눗셈에서 0을 나누는 경우 예외를 발생시킨다.")
     @Test
     void calculatorExceptionTest() {
-        assertThatCode(() -> Calculator.calculate(new PositiveNumber(1), "/", new PositiveNumber(0)))
+        Assertions.assertThatCode(() -> Calculator.calculate(new PositiveNumber(1), "/", new PositiveNumber(0)))
                 .isInstanceOf(IllegalArgumentException.class)
                 .hasMessage("0으로는 나눌 수 없습니다.");
     }
