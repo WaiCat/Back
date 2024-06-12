@@ -1,5 +1,6 @@
 package org.example;
 
+import org.example.calculator.Calculator;
 import org.example.calculator.PositiveNumber;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

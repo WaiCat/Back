@@ -4,9 +4,9 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
+        <option name="delegatedBuild" value="false" />
+        <option name="testRunner" value="PLATFORM" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/Calculator" />
-        <option name="gradleHome" value="" />
-        <option name="gradleJvm" value="#JAVA_HOME" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/Calculator" />
@@ -15,8 +15,6 @@
       </GradleProjectSettings>
       <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/Customer" />
-        <option name="gradleHome" value="" />
-        <option name="gradleJvm" value="#JAVA_HOME" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/Customer" />
@@ -24,12 +22,18 @@
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$/GradeCalculator" />
-        <option name="gradleJvm" value="#JAVA_HOME" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/servlet" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$/GradeCalculator" />
-            <option value="$PROJECT_DIR$/GradeCalculator/Customer" />
+            <option value="$PROJECT_DIR$/servlet" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/servlet2" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/servlet2" />
           </set>
         </option>
       </GradleProjectSettings>

@@ -1,0 +1,40 @@
+GET http://localhost:8080/calculate?operand1=11&operator= &operand2=55
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-06-10T233035.200.json
+
+###
+
+GET http://localhost:8080/calculate?operand1=11&operator= &operand2=55
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-06-10T231545.200.json
+
+###
+
+GET http://localhost:8080/calculate?operand1=11&operator= &operand2=55
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-06-10T230055.200.json
+
+###
+
+GET http://localhost:8080/calculate?operand1=11&operator=*&operand2=55
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-06-10T230031.200.json
+
+###
+
