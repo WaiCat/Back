@@ -18,7 +18,8 @@ public class BeanLifeCycleTest {
 
     @Configuration
     static class LifeCycleConfig {
-        @Bean
+        @Bean  //(initMethod = "init", destroyMethod = "close")
+        // 스프링 추론기능으로 close, shutdown 으로 시작하면 destroyMethod = "close"같은 코드는생략 가능
         public NetworkClient networkClient() {
             NetworkClient networkClient = new NetworkClient();
             networkClient.setUrl("http://localhost");
