@@ -1,4 +1,4 @@
-package org.example.pr1;
+package org.example.jcf.pr1;
 
 import java.util.HashSet;
 import java.util.Set;

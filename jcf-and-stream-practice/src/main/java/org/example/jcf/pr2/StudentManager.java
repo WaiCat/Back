@@ -1,4 +1,4 @@
-package org.example.pr2;
+package org.example.jcf.pr2;
 
 import java.util.*;
 

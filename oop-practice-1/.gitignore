@@ -1,0 +1,29 @@
+# IntelliJ IDEA 관련 파일
+.idea/
+*.iml
+*.iws
+out/
+workspace.xml
+tasks.xml
+shelf/
+# Gradle 관련
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Maven 관련
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+
+# 로그 및 환경 파일
+*.log
+*.env
+
+# OS 관련 파일
+.DS_Store
+Thumbs.db
