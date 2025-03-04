@@ -2,8 +2,8 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/2-sprint-mission" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Group-4" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/oop-practice-1" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/sb02-taehee" vcs="Git" />
   </component>
 </project>
